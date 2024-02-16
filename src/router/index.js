@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import Day3 from "../components/day-3/Day3.vue";
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +27,11 @@ const router = createRouter({
       path: "/day3",
       name: "Day3",
       component: () => import("../components/day-3/Day3.vue"),
+    },
+    {
+      path: "/day4",
+      name: "Day4",
+      component: () => import("../components/day-4/v-on-example/Day4.vue"),
     },
   ],
 });

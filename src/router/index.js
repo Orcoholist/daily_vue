@@ -29,9 +29,14 @@ const router = createRouter({
       component: () => import("../components/day-3/Day3.vue"),
     },
     {
-      path: "/day4",
-      name: "Day4",
-      component: () => import("../components/day-4/v-on-example/Day4.vue"),
+      path: "/vOnExample",
+      name: "vOnExample",
+      component: () => import("../components/day-4/v-on-example/vOnExample.vue"),
+    },
+    {
+      path: "/vBindExample",
+      name: "vBindExample",
+      component: () => import("../components/day-4/v-bind-example/vBindExample.vue"),
     },
   ],
 });

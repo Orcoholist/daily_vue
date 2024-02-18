@@ -23,6 +23,7 @@ import HelloWorld from "./components/HelloWorld.vue";
         <RouterLink to="/Day3">Day-3</RouterLink>
         <RouterLink to="vOnExample">vOnExample</RouterLink>
         <RouterLink to="vBindExample">vBindExample</RouterLink>
+        <RouterLink to="vIfExample">vIfExample</RouterLink>
       </nav>
     </div>
   </header>

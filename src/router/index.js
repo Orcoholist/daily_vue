@@ -38,6 +38,11 @@ const router = createRouter({
       name: "vBindExample",
       component: () => import("../components/day-4/v-bind-example/vBindExample.vue"),
     },
+    {
+      path: "/vIfExample",
+      name: "vIfExample",
+      component: () => import("../components/day-4/v-if-example/vIfExample.vue"),
+    },
   ],
 });
 
